@@ -5,11 +5,11 @@ var hasDragged = false;
 
 $(document).ready(function () {
 
-    var name = getUrlParameter("user");
+    var name = getUrlParameter("account");
     console.log(name);
 
     if (name == undefined) {
-        name = "natgeo";
+        name = "natgeotravel";
     } else {
         name = name.toLowerCase();
     }
