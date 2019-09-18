@@ -1,0 +1,115 @@
+html, body {
+    font-size: 0;
+    line-height: 0;
+}
+
+@font-face {
+    font-family: spongebobFont;
+    src: url("../Krabby Patty.ttf");
+}
+
+@media only screen and (max-width: 600px) {
+    html {
+        background: url(../img/bg2.png) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100%;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    html {
+        background: url('https://vignette.wikia.nocookie.net/project-m/images/c/c6/Infernalpalace.jpg/revision/latest?cb=20130822112440') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100%;
+        overflow: hidden;
+    }
+}
+
+img {
+    background: #eee 50% 50% no-repeat;
+    background-size: cover;
+
+    border: 30px solid transparent;
+    padding: 5px;
+    margin: 60px;
+
+    border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border-radius: 7px 7px 7px 7px;
+    -webkit-box-shadow: 0px 0px 60px -9px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 60px -9px rgba(0,0,0,1);
+    box-shadow: 0px 0px 60px -9px rgba(0,0,0,1);
+
+    border-image: url(../img/gold1.jpg) 18% round;
+    -webkit-border-image:url(../img/gold1.jpg) 18% round;
+}
+
+#owl-demo img {
+    display: block;
+    width: 35%;
+    object-fit: contain;
+    align-self: center;
+}
+
+.owl-item {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.hbd-text, .footer-text, #error-text {
+    font-family: spongebobFont, serif;
+    font-size: 30px;
+    color: #fff56c;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.hbd-text {
+    line-height: 1;
+    margin-bottom: 3px;
+}
+
+.footer-text {
+    padding-top: 5px;
+    color: #f24333;
+    font-size:15px;
+    line-height: 1;
+}
+
+#instr {
+    font-size: 13px;
+    color: #26b9c8;
+}
+
+.owl-wrapper-outer {
+    -webkit-transform-style: preserve-3d;
+}
+
+.owl-carousel .owl-wrapper-outer{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    z-index: 1;  // added this
+}
+
+.owl-carousel .owl-wrapper-outer{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    z-index: 1;  /* added this */
+}
+.owl-item {
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+}
+
+.carousel-wrapper { -webkit-transform: translate3d(0, 0, 0);}
