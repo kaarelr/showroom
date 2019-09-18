@@ -20,4 +20,4 @@ Use the `account` parameter to display images from a custom instagram account
 
 **Account has to be public**
 
-#### Example: [`https://kaarelr.github.io/showroom?account=themuseumofmodernart/`](https://kaarelr.github.io/showroom?account=themuseumofmodernart)
+#### Example: [`https://kaarelr.github.io/showroom?account=themuseumofmodernart`](https://kaarelr.github.io/showroom?account=themuseumofmodernart)
