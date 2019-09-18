@@ -7,9 +7,9 @@ Show off your instagram art
 
 See what showroom looks like <br>
 
-**The default account is [natgeotravel](https://www.instagram.com/natgeotravel/)**
-
 #### [`https://kaarelr.github.io/showroom/`](https://kaarelr.github.io/showroom/)
+
+**The default instagram account is [natgeotravel](https://www.instagram.com/natgeotravel/)**
 
 <hr>
 
