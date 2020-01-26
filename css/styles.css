@@ -1,35 +1,14 @@
 html, body {
     font-size: 0;
     line-height: 0;
-}
-
-@font-face {
-    font-family: spongebobFont;
-    src: url("../Krabby Patty.ttf");
-}
-
-@media only screen and (max-width: 600px) {
-    html {
-        background: url(../img/bg2.png) no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        height: 100%;
-        overflow: hidden;
-    }
-}
-
-@media only screen and (min-width: 600px) {
-    html {
-        background: url('https://vignette.wikia.nocookie.net/project-m/images/c/c6/Infernalpalace.jpg/revision/latest?cb=20130822112440') no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        height: 100%;
-        overflow: hidden;
-    }
+    
+    background: url('https://vignette.wikia.nocookie.net/project-m/images/c/c6/Infernalpalace.jpg/revision/latest?cb=20130822112440') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
 }
 
 img {
