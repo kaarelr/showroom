@@ -6,11 +6,11 @@ Show off your instagram art
 ## 🖥️ demo
 
 See what showroom looks like <br>
-##### Make sure you drag left and right to get a sense of the full experience
 
 #### [`https://kaarelr.github.io/showroom/`](https://kaarelr.github.io/showroom/)
 
 **The default instagram account is [natgeotravel](https://www.instagram.com/natgeotravel/)**
+##### Make sure you drag left and right to get a sense of the full experience
 
 <hr>
 
